@@ -6,7 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>try
   </title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+     .yo{
+  
+       height: 50px;
+       width: 200px;
+       border: 3px solid black;
+       animation: shree 4s ease-in  6 ;
+       animation-play-state: paused;
+  
+  
+  
+  
+}
+@keyframes shree{
+  from{
+    background-color: red
+    
+  }
+  to{
+  
+    width: 500px;
+  }
+}
+body{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+nav{
+  border: 2px solid black;
+  height: 200px;
+  width: 150px;
+  display: flex;
+  align-items: center
+  
+  
+}
+btn{
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+  </style>
 </head>
 
 <body>
