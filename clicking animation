@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>try
+  </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="nav">
+    <div class="yo">
+
+    </div>
+
+
+
+  </div>
+
+  <button class="btn">Done</button>
+
+  <script>
+    // Select the element with class "btn"
+    let check = 0;
+    let btnElement = document.getElementsByClassName("btn")[0]; // Assuming there is only one element with class "btn"
+    let yo = document.getElementsByClassName("yo")[0];
+
+    // Add click event listener to the button element
+    btnElement.addEventListener("click", () => {
+      // Select the element with class "yo"
+      if (check == 0) {
+        yo.style.animationPlayState = "running";
+        check = 1;
+      } else {
+        yo.style.animationPlayState = "paused";
+        check = 0;
+      }
+    });
+  </script>
+</body>
+
+</html>
